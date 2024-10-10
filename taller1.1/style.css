@@ -32,6 +32,31 @@ body {
     margin: 0 auto;
  }
 
+
+ /* -------------------------------- AGREGAR NOMBRE -------------------------------*/
+#input-nombre {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-dark);
+    width: 60%;
+}
+
+#guardar-nombre {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guardar-nombre:hover {
+    background-color: var(--blue-light);
+}
+
+
 /*-----------------------------------------PERFIL----------------------------------*/
 
 .perfil h1{
@@ -48,10 +73,13 @@ body {
     padding: 50px 0 5px 0;
 }
 
+
+
 /*--------------------------------------AGREGAR TAREA--------------------------*/
 
 .agregar-tarea{
     background-color: var(--white);
+    margin-bottom: 20px; 
     border-radius: 15px;
     height: 70px;
     display: flex;
