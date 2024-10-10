@@ -1,0 +1,138 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*estilos para login de iniciar seccion*/
+.registrar_usuarios{
+	padding-bottom: 40px;
+	padding-top: 40px;
+    background-size: cover;
+  
+    background-position:center;
+   
+	background-image: url(src/vistas/Productos/imagenes/def.jpg) ;
+}
+
+.login-registrarse{
+
+  /*margin-left: 500px;*/
+ 
+  margin: auto;
+  width: 540px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+ 
+}
+
+
+
+.login-registrarse h1{
+  font-size: 36px;
+  text-align: center;
+}
+.login-registrarse .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+  margin: 30px 0;
+}
+.login-registrarse input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.selecionar-documentos{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 19px;
+  color: #fff;
+  padding: 5px 20px 5px 20px; 
+}
+.selecionar-documentos option{
+	background-color: transparent;
+	color: black;
+}
+
+
+.input-box input::placeholder{
+  color: #fff;
+}
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+
+ .btn_listar{
+
+width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+
+}
+
+
+
+.tabla-usuarios{
+	 background-color:antiquewhite;
+        max-width: 1300px;
+        padding: 30px;
+        border: 1px solid black;
+        margin: 0 auto;
+        
+        margin-top: 60px;
+	}
+
+.tabla-usuarios table{
+	width: 100%;
+}
+
+.tabla-usuarios th{
+        background-color: #F29544;
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px 20px;
+    }
+   .tabla-usuarios td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px;
+    }
+
+   .tabla-usuarios button{
+     background-color: #BDE038;
+    color: rgb(12, 12, 12);
+    border: 1px solid black;
+    padding: 4px;
+    cursor: pointer;
+   }

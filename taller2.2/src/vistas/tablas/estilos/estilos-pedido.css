@@ -1,0 +1,63 @@
+.imagen-fondo{
+    background-image: url(src/vistas/Productos/imagenes/def.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+
+.pedidos{
+    width: 800px;
+    height: 640px;
+    border: 2px solid rgb(18, 18, 18);
+    background-color:#506266;;
+    /*margin-left: 300px;*/
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 50px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.pedidos h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.productos{
+   margin-top: 20px;
+   background-color:#818274;
+   border: 2px solid rgb(228, 224, 224);
+   padding: 20px;
+   height: 230px;
+
+}
+.productos li{
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-left:10px;
+   
+}
+.productos h5{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.pedidos button{
+    background-color: #BDE038;
+    color:rgb(16, 15, 15);
+    margin-left: 550px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 11px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.numeromesa {
+ margin-bottom:5px;
+ font-size: 19px;
+ margin-left: 4px;
+}
+
+.ultima {
+    font-size: 19px;
+    margin-left: 4px;
+}

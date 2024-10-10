@@ -1,0 +1,89 @@
+.imagen-fondo{
+    background-image: url(src/vistas/Productos/imagenes/def.jpg);
+        background-size: cover;
+    background-position:center;
+}
+
+.ocultar{
+   position: absolute;
+  bottom: 10px;
+  left: 390px;
+}
+
+.factu{
+    position: relative;
+    width: 1000px;
+    height: 650px;
+    border: 2px solid black;
+    /*margin: 20px 180px;*/
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: #8C8070;
+
+}
+.factu h2{
+    text-align: center;
+   padding-top: 30px;
+}
+
+/*estilos para la tabla*/
+.tabla{
+    
+    text-align: center;
+    margin-left:90px;
+}
+table thead{
+    background-color:  #A6A158;
+    color: white;
+    border: 1px solid black;
+}
+th{
+    padding: 16px 50px;
+    
+}
+td{
+border-bottom: 2px solid black;
+padding-top: 14px;
+}
+.tabla h4{
+   border-bottom: 1px solid;
+   border-left: 1px solid;
+   border-right: 1px solid;
+    width: 180px;
+    text-align: center;
+    margin-left: 668px;
+    padding-top: 3px;
+}
+.tabla button{
+    position: relative;
+    background-color: #BDE038;
+    color: rgb(12, 12, 12);
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 100px;
+    left: 310px;
+    padding: 13px;
+    font-size: 14px;
+    
+}
+/*seccion de arriba*/
+.arriba{
+    margin-left: 90px;
+    padding-top: 10px;
+}
+
+.arriba p{
+    padding: 4px;
+}
+
+/*seccion de abajo*/ 
+.abajo{
+    position: relative;
+    margin-left: 90px;
+    bottom: 55px;
+}
+
+.abajo p{
+    padding: 4px;
+}

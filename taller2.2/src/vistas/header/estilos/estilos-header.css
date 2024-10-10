@@ -1,0 +1,275 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+
+.nav-principal{
+	display: flex;
+	margin: auto;
+	background-color: #89CEEF;
+	font-size: 20px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+
+	
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+  margin: auto;
+
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 40px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.menu-horizontal > li:hover{
+	background-color: blue;
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #89CEEF;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li:hover{
+	background-color: blue;
+
+}
+
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	position: relative;
+  
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+
+.contenedor-buscar{
+
+align-items: center;
+
+
+}
+
+.contenedor-buscar{
+	position: relative;
+	margin: auto;
+
+}
+
+.contenedor-buscar input{
+	width: 350px;
+	padding: 5px;
+	padding-right: 35px;
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	font-size: 1res;
+}
+
+
+.contenedor-buscar button{
+	background-color: blue;
+	padding: 5px 15px;
+	position: absolute;
+	border: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	color: white;
+	
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+
+
+/*estilos para login de iniciar seccion*/
+.imagen-login{
+	 background-image:url(src/vistas/Productos/imagenes/gddfg.webp);
+	 padding: 10px;
+	 background-size: cover;
+    background-position:center;
+}
+
+
+.imagen-login .login-iniciar{
+	position: relative;
+	/*left: 500px;*/
+  margin: auto;
+  width: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.imagen-login .login-cambiar_contrsena{
+  position: relative;
+  /*left: 500px;*/
+  margin: auto;
+  width: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  display: none;
+}
+
+.imagen-login .login-registrarse{
+  /*margin-left: 500px;*/
+  margin: auto;
+  width: 540px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  display: none;
+}
+
+
+
+.imagen-login h1{
+  font-size: 36px;
+  text-align: center;
+}
+.imagen-login .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+  margin: 30px 0;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.selecionar-documentos{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 19px;
+  color: #fff;
+  padding: 5px 20px 5px 20px; 
+}
+.selecionar-documentos option{
+	background-color: transparent;
+	color: black;
+}
+
+.selecionar-rol{
+   width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 19px;
+  color: #fff;
+  padding: 5px 20px 5px 20px; 
+}
+
+
+.selecionar-rol option{
+  background: transparent;
+  color: black;
+}
+
+.input-box input::placeholder{
+  color: #fff;
+}
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+.imagen-login .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input{
+  accent-color: #fff;
+  margin-right: 3px;
+
+}
+.remember-forgot a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+.imagen-login .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.imagen-login .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}

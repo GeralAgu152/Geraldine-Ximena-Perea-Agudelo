@@ -1,0 +1,155 @@
+
+.imagen-fondo{
+    background-image:url(src/vistas/Productos/imagenes/def.jpg);
+    
+}
+
+
+
+
+/* seccion de agregar productos */
+.agregarproducto{
+    max-width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+     margin-left: 60px;
+    background-color: #F29544;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+    
+   .agregarproducto form{
+    max-width: 400px;
+    margin: 0 auto;
+   }
+    
+    .formulario button{
+        margin-top: 10px;
+        margin-bottom: 5px;
+         background-color: #BDE038;
+        color: rgb(11, 11, 11);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 8px 15px;
+        margin-left: 283px;
+        cursor: pointer;
+    }
+
+     
+   .formulario button:hover{
+        background-color: blue;
+        
+   }
+
+    .formulario label{
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    .agregarproducto textarea{
+        width: 100%;
+        height: 50px;
+    }
+    .categoriasproducto{
+        width: 100%;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+    .formulario input{
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 10px;
+        
+    }
+    .formulario h2{
+     text-align:  center;
+    }
+
+
+
+.contenedor-categorias{
+        margin: 0 auto;
+        background-color:antiquewhite;
+        max-width: 1300px;
+        padding: 30px;
+        border: 1px solid black;
+
+    }
+    .contenedor-categorias h4{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contenedor-categorias th{
+        background-color: #F29544;
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px 20px;
+    }
+    .contenedor-categorias td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 3px;
+    }
+    .contenedor-categorias input{
+        width: 25px;
+        height: 25px;
+    }
+   .contenedor-categorias button{
+     background-color: #BDE038;
+    color: rgb(12, 12, 12);
+    border: 1px solid black;
+    padding: 4px;
+    cursor: pointer;
+   }
+
+
+   .contenedor-categorias button:hover{
+        background-color:  #BDE038;
+        
+   }
+
+   .categorias-cafeteria{
+    display: none;
+   }
+
+
+.categorias-bebidas{
+
+    display: none;
+}
+
+
+.categorias-expressos{
+    display: none;
+}
+
+
+.categorias-extras{
+    display: none;
+
+}
+
+
+.categorias-pastelillos{
+    display: none;
+}
+
+
+
+
+.estilo{
+width: 910px;
+
+}
+.estilo select{
+    padding: 5px 20px;
+    max-width: 100%;
+ background-color: #F29544;
+}
+
+.estilo option{
+    color: white;
+    background-color: #F29544;
+}

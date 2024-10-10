@@ -1,0 +1,83 @@
+/*estilos para el pie de pagina*/
+
+.pie{
+	background: #10454F;
+	padding-bottom: 40px;
+}
+
+img{
+	width: 50px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+span{
+	font-size: 23px;
+}
+
+.fk{
+background: #064CB0;
+padding: 8px;
+border-radius: 58px;
+color: white;
+}
+
+.wp{
+background: #1CA806;
+padding: 8px;
+border-radius: 58px;
+color: white;
+}
+
+.im{
+background: #E71340 ;
+padding: 8px;
+border-radius: 58px;
+color: white;
+}
+
+.tr{
+
+background:black ;
+padding: 8px;
+border-radius: 58px;
+color: white;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.parrafo{
+	font-size: 18px;
+	color: white;
+}
+
+.seccion{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 40px;
+}
+
+.seccion div{
+	display: flex;
+	flex-direction: column;
+}
+
+div h2{
+	color: white;
+	padding: 10px 0;
+}
+
+a{
+color: white;
+text-decoration: none;
+padding: 5px;
+}

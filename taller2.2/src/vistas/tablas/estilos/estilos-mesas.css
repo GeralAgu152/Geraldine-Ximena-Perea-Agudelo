@@ -1,0 +1,120 @@
+
+.imagen-fondo{
+    background-image:url(src/vistas/Productos/imagenes/def.jpg);
+    padding: 40px 0px 40px 0px;
+        background-size: cover;
+    
+}
+
+
+.prueba_pedido{
+    position: absolute;
+}
+
+.mesas{
+      
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #595147;
+        height: 500px;
+        max-width: 810px;
+        border: 1px solid black;   
+    }
+
+
+
+    .mesas h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .dispo h4{
+        margin-top: 30px;
+        display: inline-block;
+        margin-right: 105px;
+        position: relative;
+        left: 88px; 
+    }
+
+    .dispo div{
+        display: inline-block;
+        margin-right: 329px;
+        position: relative;
+        left: 325px;
+        bottom: 36px;
+    }
+    .verde{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(18, 221, 18);
+    }
+    .rojo{
+        height: 30px;
+        width: 30px;
+        background-color: red;
+    }
+
+.grupo1{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-row: minmax(100px, auto);
+}
+
+
+ .grupo1 button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        padding: 17px;
+        border: 1px solid black;
+        font-size: 17px;
+        color: black;
+        background-color: rgb(18, 221, 18);
+        cursor: pointer;
+
+
+    }
+
+ 
+    
+
+
+  /*  .botones button{
+        position: relative;
+        left: 330px;
+        margin: 70px 10px;
+        background-color: rgb(0, 119, 255);
+        color: white;
+        border: 1px solid white;
+        border-radius:6px;
+        padding: 8px;
+
+    }*/
+
+
+
+
+    /* estilos al botones de seleccionar mesas*/
+    .btn-seleccionar_mesa{
+        margin-top: 20px;
+        margin-left: 540px;
+        background-color: #BDE038;
+        color: rgb(14, 14, 14);
+        border: 1px solid rgb(11, 11, 11);
+        border-radius:10px;
+        padding: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        
+    }
+
+    .btn-seleccionar_mesa:hover{
+     background-color: #BDE038;
+    }
+
+.slider{
+    margin-top: 30px;
+    max-width: 1700px;
+}
